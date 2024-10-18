@@ -1,26 +1,9 @@
 # Operatorial Approaches to Classical Mechanics.
 
-The objective of the project was to study various operatorial approaches
-to classical mechanics. We started with understanding the foundations of
-Koopman- von Neumann Mechanics and the key differences in its opera-
-torial language that set it apart from Quantum Mechanics. We then used
-the KvN formalism to evaluate the free particle and successfully mapped it
-back to the Newtonian free particle. Next, we solved for the general eigen-
-states ψ nm of Liouvillian in the Harmonic Oscillator system. We also veri-
-fied the credibility of the found eigenstates.
-The next operatorial approach was derived from the irreducible represen-
-tation of the Galilei group. We studied the postulated Lie Algebra of the
-group and re-examined Free particle and Harmonic Oscillator using this
-approach. Here, we found that the results match with those found using
-the KvN approach. With this, we confirmed that the two approaches are
-indeed equivalent.
-Then, we studied the Anharmonic Oscillator with cubic perturbation. We
-found the general states with linear order approximation. Further, we com-
-pared the evolution of the found state in time with the state found through
-using classical perturbation theory. Finally, we moved on to examine the
-Central Potential system where we first found the Liouvillian in polar co-
-ordinates. Then we calculated the dynamics of all observables of the sys-
-tem and saw that angular momentum is conserved as expected.
-In the future, we aim to further study the central potential system and an-
-harmonic oscillator. We would like to find ways to better approximate the
-general state of anharmonic oscillator using perturbative approach.
+Several attempts have been made to approach classical mechanics in ways that are different from Newtonian Mechanics. Over time, we moved to mathematically more complex Lagrangian and Hamiltonian formulations which have given us a deep understanding of the symmetry, mathematical structures, etc. of classical dynamical systems. Meanwhile, the development of Quantum Mechanics presented the need to develop yet another approach to Classical Mechanics. This is because Quantum Mechanics has a mathematical structure that is unique and different from the one used to describe classical physics. The change in the mathematical structure during the transition from the microscopic world (the quantum world) to the macroscopic world (the classical world) proves to be a challenge. The need to study the interplay between Quantum and Classical Mechanics motivated the attempts to express both theories in mathematical formalisms that are similar to each other.
+
+Therefore we need ways to formulate Classical Mechanics in the same mathematical language as that of Quantum Mechanics. Our work aims at studying the various operatorial approaches to classical mechanics and solving classical systems usign the same. We started with understanding the foundations of Koopman-von Neumann(KvN) Mechanics and the key differences in the operatorial language that set it apart from Quantum Mechanics. While the usual Classical Mechanics is formulated in the phase space framework with observables being functions of position, momentum and time, the KvN approach to Classical Mechanics starts with the introduction of a Hilbert Space of complex and square-integrable functions. Further, the modulus square of these wave functions will be equal to the probability density in phase space and the observables are defined to be operators. Even when we use operatorial language, one must note that KvN formalism still deals with classical systems where position and momentum can be measured simultaneously. Further, unlike the quantum mechanical wave function, the modulus and phase of the KvN wave function evolve separately.
+
+We used the KvN formalism to evaluate the free particle and Harmonic Oscillator systems and successfully mapped it back to Newtonian mechanics. We then ‭Utilized the properties of Galilei Group representation in Classical Mechanics to simplify the‬ solutions of Harmonic Oscillator, Cubic Anharmonic Oscillator and Central Potential systems. Here, we found that the results match with those found using the KvN approach. With this, we confirmed that the two approaches are indeed equivalent. 
+
+We were able to give a generic approach to solving basic classical mechanical systems using an operatorial approach. Our work could also be extended to solve for other systems by following a similar procedure. But the challanging part of using an operatorial approach is the rigorous mathematics involved,to solve even simple systems. Thus, we cannot view this as a better alternative than any previous classical formalisms, but only as a prescribed framework to look at classical subsystems being part of a larger system involving both classical and quantum systems.
